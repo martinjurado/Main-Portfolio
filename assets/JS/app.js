@@ -260,7 +260,7 @@ $(function () {
     $("#project-modal").empty();
     $("#sample-dump").empty();
     $("#desc-dump").empty();
-    $("#button-dump").empty();
+    $("#link-dump").empty();
     
     jQuery.noConflict();
     $("#portfolio-modal").modal("toggle");
@@ -281,7 +281,7 @@ $(function () {
     $("#project-modal").empty();
     $("#sample-dump").empty();
     $("#desc-dump").empty();
-    $("#button-dump").empty();
+    $("#link-dump").empty();
     
     jQuery.noConflict();
     $("#portfolio-modal").modal("toggle");
@@ -302,7 +302,7 @@ $(function () {
     $("#project-modal").empty();
     $("#sample-dump").empty();
     $("#desc-dump").empty();
-    $("#button-dump").empty();
+    $("#link-dump").empty();
     
     jQuery.noConflict();
     $("#portfolio-modal").modal("toggle");
@@ -323,7 +323,7 @@ $(function () {
     $("#project-modal").empty();
     $("#sample-dump").empty();
     $("#desc-dump").empty();
-    $("#button-dump").empty();
+    $("#link-dump").empty();
     
     jQuery.noConflict();
     $("#portfolio-modal").modal("toggle");
