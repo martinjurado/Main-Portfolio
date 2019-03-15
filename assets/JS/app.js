@@ -94,32 +94,53 @@ var content = {
     headerSeven: function(){
         setTimeout(function(){
 
-            $("#main-header-seven").text("Key Specialties:");
+            $("#main-header-seven").text("About Me:");
             $("#main-header-seven").addClass("animated bounceIn");
 
         }, 2300)
     },
+
+    headerEight: function(){
+        
+        setTimeout(function(){
+
+            $("#main-header-eight").text("Full-stack web developer that has an eye for detail and design. I am highly skilled in building aesthetically creative and mobile-responsive applications. What sparks my interest is being able to solve difficult problems and providing value to clients through my work.");
+            $("#main-header-eight").addClass("animated bounceIn");
+
+        }, 2700)
+    },
+
+    headerMe: function(){
+        setTimeout(function() {
+
+            $("#me-content").text("Key Specialties:");
+            $("#me-content").addClass("animated bounceIn");
+
+        }, 2300)
+    },
+
+    headerDesc: function(){
+        setTimeout(function() {
+            $("#me-desc").text("Front-End: React.js, Javasript, jQuery, Materialize.css, Bootstrap");
+            $("#me-desc2").text("Back-End: Node.js, RESTful API, SQL, MongoDB, MVC framework")
+            $("#me-desc").addClass("animated bounceIn");
+            $("#me-desc2").addClass("animated bounceIn");
+        }, 2700)
+    },
+
+
     icons: function(){
         setTimeout(function(){
             $("#html-container").html("<i id='html5'></i>");
-            $("#html5").addClass("fab fa-html5 fa-3x html-icon animated flipInY");
+            $("#html5").addClass("fab fa-react fa-3x html-icon animated flipInY");
             $("#html-container").append("<i id='css3'></i>");
             $("#css3").addClass("fab fa-css3-alt fa-3x css-icon animated flipInY");
             $("#html-container").append("<i id='js'></i>");
             $("#js").addClass("fab fa-js fa-3x js-icon animated flipInY");
             $("#html-container").append("<i id='node'></i>");
-            $("#node").addClass("fab fa-node fa-3x node-icon animated flipInY");
+            $("#node").addClass("fab fa-node-js fa-3x node-icon animated flipInY");
         }, 2500)
 
-    },
-    headerEight: function(){
-        
-        setTimeout(function(){
-
-            $("#main-header-eight").text("I am proficient in the language of HTML5, CSS3, JS & jQuery and Node.JS");
-            $("#main-header-eight").addClass("animated bounceIn");
-
-        }, 2700)
     },
 
     headerNine: function(){
@@ -195,6 +216,8 @@ content.headerSix();
 content.button();
 content.martinPic()
 content.headerSeven();
+content.headerMe();
+content.headerDesc();
 content.icons();
 content.headerEight();
 content.headerNine();
