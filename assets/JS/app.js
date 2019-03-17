@@ -8,8 +8,6 @@ var content = {
             $("#main-header-one").text("Hey, it's");
             $("#main-header-one").addClass("animated bounceIn hvr-grow-rotate");
             
-
-            console.log("hey"); // test
         },1000); // 3 seconds
     },
 
@@ -177,14 +175,14 @@ var content = {
 
     iconThree: function() {
         setTimeout( function() {
-            $("#pic-dump3").html("<img src='date.jpg' id='icon3'>");
+            $("#pic-dump3").html("<img src='hotel.jpg' id='icon3'>");
             $("#icon3").addClass("animated bounceIn");
         }, 2300)
     },
 
     iconFour: function() {
         setTimeout( function() {
-            $("#pic-dump4").html("<img src='simpsons.jpg' id='icon4'>");
+            $("#pic-dump4").html("<img src='date.jpg' id='icon4'>");
             $("#icon4").addClass("animated bounceIn");
         }, 2400)
     },
@@ -247,12 +245,12 @@ $(function () {
     jQuery.noConflict();
     
     $("#portfolio-modal").modal("toggle");
-    $("#project-modal").append("E-Commerce Store");
+    $("#project-modal").append("E-Commerce Store " + "<i class='fas fa-laptop'></i>");
     $("#sample-dump").html("<img src='store.png' class='work1'>");
     $("#desc-dump").append("E-commerce app that displays items through a database and incorporates full CRUD capabilities." +
      " This app incorporates the MVC framework. It is divided into two parts namely customer view and supervisor view.");
     $("#tech-dump").append("jQuery, Bootstrap, Handlebars, Passport.js, Node.js, Express, MySQL ")
-    $("#link-dump").html("<button class='btn btn-dark'><a href='https://frozen-atoll-67387.herokuapp.com/' id='link'>Click Me</a></button>");
+    $("#link-dump").html("<button type='button' class='btn btn-primary'><a href='https://frozen-atoll-67387.herokuapp.com/' id='link' target='_blank'>Click Me</a></button>");
     });
 });
 
@@ -271,10 +269,11 @@ $(function () {
     jQuery.noConflict();
     
     $("#portfolio-modal").modal("toggle");
-    $("#project-modal").append("Dream Job Finder");
+    $("#project-modal").append("Dream Job Finder " + "<i class='fas fa-laptop'></i>");
     $("#sample-dump").html("<img src='job.png' class='work2'>");
     $("#desc-dump").append("Searches multiple job APIs for user input and displays that information in an accessible way. It also searches twitter for the latests tweets about potential employers. It provides a link where you can actually apply. Searches a news API for the latest job related news and displays links to various articles.");
-    $("#link-dump").html("<button class='btn btn-dark'><a href='https://martinjurado.github.io/DreamJob-Finder/' id='link'>Click Me</a></button>");
+    $("#tech-dump").append("jQuery, Bootstrap, 3rd Party API, Github Jobs API, Authentic Jobs API, Twitter API, News API")
+    $("#link-dump").html("<button type='button' class='btn btn-primary'><a href='https://martinjurado.github.io/DreamJob-Finder/' id='link' target='_blank'>Click Me</a></button>");
     });
 });
 
@@ -292,11 +291,15 @@ $(function () {
     
     jQuery.noConflict();
     $("#portfolio-modal").modal("toggle");
-    $("#project-modal").append("Celebrity Dating App");
-    $("#sample-dump").html("<img src='friend.gif' class='work3'>");
-    $("#desc-dump").append("A Celebrity Dating App with full-stack features that takes in the results of the user, and matches the answer with an existing user. Then, it will display the name and picture of the best-matched user");
-    $("#link-dump").html("<button class='btn btn-dark'><a href='https://arcane-retreat-18762.herokuapp.com/' id='link'>Click Me</a></button>");
-
+    $("#project-modal").append("Trip Pal " + "<i class='fas fa-laptop'></i>");
+    $("#sample-dump").html("<img src='react.png' class='work3'>");
+    $("#desc-dump").append("Trip Pal is an application that caters to many of our user's travel needs in one place." + 
+    " It is designed to provide a place where users can store all of their travel information in an itinerary which can be updated to keep up with any last minute changes." +
+    " Users can also store their travel photos in albums and search for airport weather, flight status and hotels.");
+    $("#tech-dump").append("React.js, Redux, HTML, React-Materialize, Javascript, MongoDB/Mongoose, Firebase (User Authentication), " +
+    " Express, Axios, 3rd Party API (Flight Stats & Mak Corps), Moment.js, Google Fonts, Font Awesome");
+    $("#link-dump").html("<button type='button' class='btn btn-primary'><a href='https://boiling-sea-88261.herokuapp.com/' id='link' target='_blank'>SAMPLE</a></button>");
+    
     });
 });
 
@@ -314,11 +317,12 @@ $(function () {
     
     jQuery.noConflict();
     $("#portfolio-modal").modal("toggle");
-    $("#project-modal").append("The Simpsons-themed crystal game.");
-    $("#sample-dump").html("<img src='crystal.png' class='work4'>");
-    $("#desc-dump").append("There will be four donuts displayed as buttons on the page on the bottom part of the application. The player will be shown a random number at the start of the game. Match the random number as you click on the donuts. This game automatically resets once you win or lose. This game was developed through the use of jQuery and JavaScript.");
-    $("#link-dump").html("<button class='btn btn-dark'><a href='https://martinjurado.github.io/Crystal-Game-Week4/' id='link'>Click Me</a></button>");
-
+    $("#project-modal").append("Celebrity Dating App " + "<i class='fas fa-laptop'></i>");
+    $("#sample-dump").html("<img src='friend.gif' class='work4'>");
+    $("#desc-dump").append("A Celebrity Dating App with full-stack features that takes in the results of the user, and matches the answer with an existing user." +
+    " Then, it will display the name and picture of the best-matched user");
+    $("#tech-dump").append("jQuery, Bootstrap, AJAX calls (Get, Post), Node.js, Express")
+    $("#link-dump").html("<button type='button' class='btn btn-primary'><a href='https://arcane-retreat-18762.herokuapp.com/' id='link' target='_blank'>SAMPLE</a></button>");
     });
 });
 
@@ -336,10 +340,11 @@ $(function () {
     
     jQuery.noConflict();
     $("#portfolio-modal").modal("toggle");
-    $("#project-modal").append("Friends Trivia Game");
+    $("#project-modal").append("Friends Trivia Game " + "<i class='fas fa-laptop'></i>");
     $("#sample-dump").html("<img src='friends-trivia.png' class='work4'>");
     $("#desc-dump").append("A friends-themed trivia game that allows user to answer questions with a timer.");
-    $("#link-dump").html("<button class='btn btn-dark'><a href='https://martinjurado.github.io/TriviaGame-Week5/' id='link'>Click Me</a></button>");
+    $("#tech-dump").append("jQuery, Bootstrap, Node.js, Express, AJAX calls (Get, Post)")
+    $("#link-dump").html("<button type='button' class='btn btn-primary'><a href='https://martinjurado.github.io/TriviaGame-Week5/' id='link' target='_blank'>Click Me</a></button>");
 
     });
 });
@@ -358,9 +363,11 @@ $(function () {
     
     jQuery.noConflict();
     $("#portfolio-modal").modal("toggle");
-    $("#project-modal").append("");
+    $("#project-modal").append("Hangman Game" + "<i class='fas fa-laptop'></i>");
     $("#sample-dump").html("<img src='stranger.png' class='work5'>");
-    $("#desc-dump").append("Stranger Things-themed hangman. Guess the word or be doomed in the upside down.");
+    $("#desc-dump").append("Stranger Things-themed hangman. Guess the word or be doomed in the upside down." +
+    " This application requires user to guess the name of the character with limited lives. Clues for the word are also included. The application also radomly picks words for the user.");
+    $("#tech-dump").append("Javascript, Bootstrap, HTML")
     $("#link-dump").html("<button class='btn btn-dark'><a href='https://martinjurado.github.io/WordGuessingGame/' id='link'>Click Me</a></button>");
 
     });
