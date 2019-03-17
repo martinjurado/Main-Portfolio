@@ -363,7 +363,7 @@ $(function () {
     
     jQuery.noConflict();
     $("#portfolio-modal").modal("toggle");
-    $("#project-modal").append("Hangman Game" + "<i class='fas fa-laptop'></i>");
+    $("#project-modal").append("Hangman Game " + "<i class='fas fa-laptop'></i>");
     $("#sample-dump").html("<img src='stranger.png' class='work5'>");
     $("#desc-dump").append("Stranger Things-themed hangman. Guess the word or be doomed in the upside down." +
     " This application requires user to guess the name of the character with limited lives. Clues for the word are also included. The application also radomly picks words for the user.");
