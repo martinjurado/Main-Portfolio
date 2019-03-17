@@ -242,13 +242,16 @@ $(function () {
     $("#sample-dump").empty();
     $("#desc-dump").empty();
     $("#button-dump").empty();
+    $("#tech-dump").empty();
     
     jQuery.noConflict();
     
     $("#portfolio-modal").modal("toggle");
-    $("#project-modal").append("Dex Taux");
+    $("#project-modal").append("E-Commerce Store");
     $("#sample-dump").html("<img src='store.png' class='work1'>");
-    $("#desc-dump").append("E-commerce app that takes in customer's log-in information, orders and testimonials. The mobile app sorts it's products by price, category and designer.");
+    $("#desc-dump").append("E-commerce app that displays items through a database and incorporates full CRUD capabilities." +
+     " This app incorporates the MVC framework. It is divided into two parts namely customer view and supervisor view.");
+    $("#tech-dump").append("jQuery, Bootstrap, Handlebars, Passport.js, Node.js, Express, MySQL ")
     $("#link-dump").html("<button class='btn btn-dark'><a href='https://frozen-atoll-67387.herokuapp.com/' id='link'>Click Me</a></button>");
     });
 });
@@ -263,6 +266,7 @@ $(function () {
     $("#sample-dump").empty();
     $("#desc-dump").empty();
     $("#button-dump").empty();
+    $("#tech-dump").empty();
     
     jQuery.noConflict();
     
@@ -284,6 +288,7 @@ $(function () {
     $("#sample-dump").empty();
     $("#desc-dump").empty();
     $("#link-dump").empty();
+    $("#tech-dump").empty();
     
     jQuery.noConflict();
     $("#portfolio-modal").modal("toggle");
@@ -305,6 +310,7 @@ $(function () {
     $("#sample-dump").empty();
     $("#desc-dump").empty();
     $("#link-dump").empty();
+    $("#tech-dump").empty();
     
     jQuery.noConflict();
     $("#portfolio-modal").modal("toggle");
@@ -326,6 +332,7 @@ $(function () {
     $("#sample-dump").empty();
     $("#desc-dump").empty();
     $("#link-dump").empty();
+    $("#tech-dump").empty();
     
     jQuery.noConflict();
     $("#portfolio-modal").modal("toggle");
@@ -347,6 +354,7 @@ $(function () {
     $("#sample-dump").empty();
     $("#desc-dump").empty();
     $("#link-dump").empty();
+    $("#tech-dump").empty();
     
     jQuery.noConflict();
     $("#portfolio-modal").modal("toggle");

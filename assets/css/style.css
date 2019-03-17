@@ -183,6 +183,30 @@
 
 }
 
+#project-modal {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 3px;
+}
+
+#desc-header {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;   
+    text-align: justify;
+}
+
+#tech-dump {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;   
+    text-align: justify;
+}
+
+#desc-dump {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;   
+    text-align: justify;
+}
+
+
 .html-icon {
 
     color: #B6EEFF;
