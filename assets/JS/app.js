@@ -145,7 +145,7 @@ var content = {
         
         setTimeout( function() {
             
-            $("#main-header-nine").text("Here's a Portfolio of my Work Currated by Me.");
+            $("#main-header-nine").text("Here's a Portfolio of my Work Curated by Me.");
             $("#main-header-nine").addClass("animated bounceIn");
         }, 1800)
     },
